@@ -25,3 +25,21 @@ print("Minimum value:", min(numbers))
 print("Sum of list:", sum(numbers))
 numbers.clear()
 print("After clear():", numbers)
+
+OUTPUT
+Original List: [10, 20, 30, 40, 50]
+After append(60): [10, 20, 30, 40, 50, 60]
+After insert(1, 15): [10, 15, 20, 30, 40, 50, 60]
+After remove(30): [10, 15, 20, 40, 50, 60]
+After pop(2): [10, 15, 40, 50, 60]
+After extend([70, 80]): [10, 15, 40, 50, 60, 70, 80]
+Count of 20: 0
+Index of 50: 3
+After sort(): [10, 15, 40, 50, 60, 70, 80]
+After reverse(): [80, 70, 60, 50, 40, 15, 10]
+Copied List: [80, 70, 60, 50, 40, 15, 10]
+Length of list: 7
+Maximum value: 80
+Minimum value: 10
+Sum of list: 325
+After clear(): []
